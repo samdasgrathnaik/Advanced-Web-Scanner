@@ -7,7 +7,7 @@ Built with a multithreaded architecture, the tool efficiently scales to scan doz
 
 ---
 
-## 🚀 Enterprise Features
+## Enterprise Features
 1. **Multithreaded Execution:** Utilizes `concurrent.futures` to perform high-speed parallel scanning of bulk URL lists.
 2. **Comprehensive Header Audit:** Validates the presence of OWASP Top 10 mitigation headers (HSTS, CSP, X-Frame-Options, etc.) and detects information disclosure headers (`Server`, `X-Powered-By`).
 3. **CORS Vulnerability Detection:** Injects malicious origin payloads (`https://evil-attacker.com` and `null`) to expose dangerous Access-Control configurations and credential leakage.
